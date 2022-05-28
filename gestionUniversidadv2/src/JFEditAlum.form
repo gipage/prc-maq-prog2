@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabel8" alignment="1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabel8" alignment="0" pref="139" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/add use.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" EDITAR ALUMNO"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="ff" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+                          <Component id="jButtonGuardar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Component id="jButtonSalir" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" pref="73" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jcbfac" min="-2" pref="197" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jtfdir" alignment="0" pref="199" max="32767" attributes="0"/>
+                                  <Component id="jtfnom" max="32767" attributes="0"/>
+                                  <Component id="jtfdoc" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jdcnac" min="-2" pref="197" max="-2" attributes="0"/>
+                              <Component id="jcbcar" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                              <Component id="jdcing" min="-2" pref="197" max="-2" attributes="0"/>
+                              <Component id="jtfreg" min="-2" pref="197" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="25" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfnom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtfdoc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtfdir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jdcnac" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jcbfac" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jcbcar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jdcing" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtfreg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jButtonGuardar" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButtonSalir" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="58" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nombre:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Documento:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Direcci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfnom">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfdoc">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfdocActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfdir">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfdirActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha de nacimiento:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jdcnac">
+          <Properties>
+            <Property name="dateFormatString" type="java.lang.String" value="dd-MM-yyyy"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Facultad:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jcbfac">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="FCFMyN"/>
+                <StringItem index="1" value="FQByF"/>
+                <StringItem index="2" value="FICA"/>
+                <StringItem index="3" value="FCEJS"/>
+                <StringItem index="4" value="FCH"/>
+                <StringItem index="5" value="FaPsi"/>
+                <StringItem index="6" value="FCS"/>
+                <StringItem index="7" value="FTU"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcbfacActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Carrera:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jcbcar">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="84">
+                <StringItem index="0" value="Ingenier&#xed;a Electr&#xf3;nica con Orientaci&#xf3;n en Sistemas Digitales"/>
+                <StringItem index="1" value="Ingenier&#xed;a en Computaci&#xf3;n"/>
+                <StringItem index="2" value="Ingenier&#xed;a en Inform&#xe1;tica"/>
+                <StringItem index="3" value="Ingenier&#xed;a en Minas"/>
+                <StringItem index="4" value="Licenciatura en Ciencias de la Computaci&#xf3;n"/>
+                <StringItem index="5" value="Licenciatura en Ciencias Geol&#xf3;gicas"/>
+                <StringItem index="6" value="Licenciatura en Ciencias Matem&#xe1;ticas"/>
+                <StringItem index="7" value="Licenciatura en F&#xed;sica  (Titulo Intermedio: Auxiliar en F&#xed;sica Aplicada)"/>
+                <StringItem index="8" value="Licenciatura en Matem&#xe1;tica Aplicada"/>
+                <StringItem index="9" value="Profesorado en Ciencias de la Computaci&#xf3;n"/>
+                <StringItem index="10" value="Profesorado en F&#xed;sica"/>
+                <StringItem index="11" value="Profesorado en Matem&#xe1;tica"/>
+                <StringItem index="12" value="Profesorado en Tecnolog&#xed;a Electr&#xf3;nica"/>
+                <StringItem index="13" value="Tecnicatura Universitaria en Electr&#xf3;nica"/>
+                <StringItem index="14" value="Tecnicatura Universitaria en Energ&#xed;as Renovables"/>
+                <StringItem index="15" value="Tecnicatura Universitaria en Geoinform&#xe1;tica"/>
+                <StringItem index="16" value="Tecnicatura Universitaria en Obras Viales"/>
+                <StringItem index="17" value="Tecnicatura Universitaria en Miner&#xed;a"/>
+                <StringItem index="18" value="Tecnicatura Universitaria en Redes de Computadoras"/>
+                <StringItem index="19" value="Tecnicatura Universitaria en Telecomunicaciones"/>
+                <StringItem index="20" value="Tecnicatura Universitaria en Web"/>
+                <StringItem index="21" value="Tecnicatura Universitaria en Fotograf&#xed;a"/>
+                <StringItem index="22" value="Ingenier&#xed;a en Alimentos"/>
+                <StringItem index="23" value="Farmacia"/>
+                <StringItem index="24" value="Licenciatura en Biolog&#xed;a Molecular"/>
+                <StringItem index="25" value="Licenciatura en Bioqu&#xed;mica"/>
+                <StringItem index="26" value="Licenciatura en Biotecnolog&#xed;a"/>
+                <StringItem index="27" value="Licenciatura en Ciencia y Tecnolog&#xed;a de los Alimentos"/>
+                <StringItem index="28" value="Licenciatura en Ciencias Biol&#xf3;gicas"/>
+                <StringItem index="29" value="Licenciatura en Qu&#xed;mica"/>
+                <StringItem index="30" value="Profesorado Universitario en Biolog&#xed;a"/>
+                <StringItem index="31" value="Profesorado en Qu&#xed;mica"/>
+                <StringItem index="32" value="Tecnicatura Universitaria en Esterilizaci&#xf3;n"/>
+                <StringItem index="33" value="Tecnicatura Universitaria en Laboratorios Biol&#xf3;gicos"/>
+                <StringItem index="34" value="Analista Qu&#xed;mico"/>
+                <StringItem index="35" value="Tecnicatura Universitaria en Higiene y Seguridad en el Trabajo"/>
+                <StringItem index="36" value="Ingenier&#xed;a Agron&#xf3;mica"/>
+                <StringItem index="37" value="Ingenier&#xed;a Electromec&#xe1;nica"/>
+                <StringItem index="38" value="Ingenier&#xed;a Electr&#xf3;nica"/>
+                <StringItem index="39" value="Ingenier&#xed;a en Alimentos"/>
+                <StringItem index="40" value="Ingenier&#xed;a Industrial"/>
+                <StringItem index="41" value="Ingenier&#xed;a Mecatr&#xf3;nica"/>
+                <StringItem index="42" value="Ingenier&#xed;a Qu&#xed;mica"/>
+                <StringItem index="43" value="Bromatolog&#xed;a"/>
+                <StringItem index="44" value="Tecnicatura Universitaria en Automatizaci&#xf3;n Industrial Orientaci&#xf3;n Inform&#xe1;tica"/>
+                <StringItem index="45" value="Tecnicatura Universitaria en Dise&#xf1;o Mec&#xe1;nico Orientaci&#xf3;n Inform&#xe1;tica"/>
+                <StringItem index="46" value="Tecnicatura Universitaria en Producci&#xf3;n Ap&#xed;cola"/>
+                <StringItem index="47" value="Tecnicatura Universitaria en Mantenimiento Industrial"/>
+                <StringItem index="48" value="Abogac&#xed;a"/>
+                <StringItem index="49" value="Contador P&#xfa;blico Nacional"/>
+                <StringItem index="50" value="Licenciatura en Administraci&#xf3;n"/>
+                <StringItem index="51" value="Licenciatura en Trabajo Social"/>
+                <StringItem index="52" value="Procurador"/>
+                <StringItem index="53" value="Tecnicatura Universitaria en Acompa&#xf1;amiento Terap&#xe9;utico"/>
+                <StringItem index="54" value="Tecnicatura Universitaria en Asistencia Jur&#xed;dica"/>
+                <StringItem index="55" value="Tecnicatura Universitaria en Gesti&#xf3;n Financiera"/>
+                <StringItem index="56" value="Martillero y Corredor P&#xfa;blico"/>
+                <StringItem index="57" value="Licenciatura en Ciencias de la Educaci&#xf3;n"/>
+                <StringItem index="58" value="Licenciatura en Comunicaci&#xf3;n Social"/>
+                <StringItem index="59" value="Licenciatura en Educaci&#xf3;n Inicial"/>
+                <StringItem index="60" value="Licenciatura en Periodismo"/>
+                <StringItem index="61" value="Licenciatura en Producci&#xf3;n de Radio y Televisi&#xf3;n"/>
+                <StringItem index="62" value="Profesorado en Ciencias de la Educaci&#xf3;n"/>
+                <StringItem index="63" value="Profesorado en Educaci&#xf3;n Especial"/>
+                <StringItem index="64" value="Licenciatura en Educaci&#xf3;n Especial"/>
+                <StringItem index="65" value="Profesorado en Educaci&#xf3;n Inicial"/>
+                <StringItem index="66" value="Profesorado Universitario en Letras"/>
+                <StringItem index="67" value="Profesorado Universitario en M&#xfa;sica Popular Latinoamericana"/>
+                <StringItem index="68" value="Tecnicatura Universitaria en Producci&#xf3;n Musical"/>
+                <StringItem index="69" value="Licenciatura en Psicolog&#xed;a"/>
+                <StringItem index="70" value="Profesorado en Psicolog&#xed;a"/>
+                <StringItem index="71" value="Licenciatura en Psicomotricidad"/>
+                <StringItem index="72" value="Licenciatura en Enfermer&#xed;a"/>
+                <StringItem index="73" value="Licenciatura en Fonoaudiolog&#xed;a"/>
+                <StringItem index="74" value="Licenciatura en Kinesiolog&#xed;a y Fisiatr&#xed;a"/>
+                <StringItem index="75" value="Licenciatura en Nutrici&#xf3;n"/>
+                <StringItem index="76" value="Licenciatura en Hoteler&#xed;a"/>
+                <StringItem index="77" value="Licenciatura en Turismo"/>
+                <StringItem index="78" value="Gu&#xed;a Universitario de Turismo"/>
+                <StringItem index="79" value="Tecnicatura Universitaria en Gesti&#xf3;n Hotelera"/>
+                <StringItem index="80" value="Tecnicatura Universitaria en Gesti&#xf3;n Tur&#xed;stica"/>
+                <StringItem index="81" value="Tecnicatura Universitaria en Parques"/>
+                <StringItem index="82" value="Jardines y Floricultura"/>
+                <StringItem index="83" value="Tecnicatura Universitaria en Producci&#xf3;n de Plantas Arom&#xe1;ticas"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcbcarActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha de ingreso:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jdcing">
+          <Properties>
+            <Property name="dateFormatString" type="java.lang.String" value="dd-MM-yyyy"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Registro:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfreg">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfregActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonGuardar">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenes/save.png"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="borderPainted" type="boolean" value="false"/>
+            <Property name="contentAreaFilled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonGuardarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSalir">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenes/salir.png"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="borderPainted" type="boolean" value="false"/>
+            <Property name="contentAreaFilled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSalirActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
